@@ -1,3 +1,27 @@
 section{
   margin-bottom: 30px;
 }
+
+#header{
+  background-image: url("../img/image-holder.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  background-color: #cccccc;
+  height: 400px;
+  bottom: 20px;
+  position: relative;
+  font-size: 20px;
+  color: white;
+}
+
+#title, #slogan{
+  position: relative;
+  top: 120px;
+  left: 60px;
+}
+
+.navbar{
+  position: relative;
+  top: 250px;
+}
