@@ -7,6 +7,14 @@ section{
   padding-bottom: 30px;
 }
 
+body p{
+  font-size: 18px;
+}
+
+h4{
+  font-size: 20px;
+}
+
 #header{
   background-image: url("../img/image-holder.png");
   background-position: center; /* Center the image */
@@ -50,4 +58,19 @@ ul.nav a:hover{
 
 .indent{
   text-indent: 50px;
+}
+
+#getInvolved button{
+  width: 48%;
+  padding: 12px;
+  margin: 10px;
+  border: 10px solid;
+  border-radius: 30px;
+  border-color: #faffb7;
+  background-color: transparent;
+  font-size: 15px;
+}
+
+#getInvolved button:hover{
+  background-color: #faffb7;
 }
