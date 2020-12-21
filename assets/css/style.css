@@ -1,5 +1,9 @@
+body{
+  background-color: #faffb7;
+}
+
 section{
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 #header{
@@ -7,12 +11,22 @@ section{
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
-  background-color: #cccccc;
+  background-color: white;
   height: 400px;
   bottom: 20px;
   position: relative;
   font-size: 20px;
+  color: #b8b606;
+}
+
+a{
+  color: black;
+}
+
+ul.nav a:hover{
   color: white;
+  background-color: #d8db27;
+  border-radius: 20px;
 }
 
 #title, #slogan{
@@ -24,4 +38,11 @@ section{
 .navbar{
   position: relative;
   top: 250px;
+}
+
+#about, #getInvolved{
+  background-color: white;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 30px;
 }
