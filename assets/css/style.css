@@ -1,5 +1,6 @@
 body{
   background-color: #faffb7;
+  color: #1a1a1a;
 }
 
 section{
@@ -45,4 +46,8 @@ ul.nav a:hover{
   margin-left: 30px;
   margin-right: 30px;
   border-radius: 30px;
+}
+
+.indent{
+  text-indent: 50px;
 }
