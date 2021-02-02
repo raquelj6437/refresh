@@ -6,6 +6,9 @@ body{
   font-family: 'PT Sans', sans-serif;
 }
 
+#home{
+  background-color: #faffb7;
+}
 section{
   padding-bottom: 30px;
 }
@@ -27,12 +30,24 @@ h2{
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
-  background-color: white;
+  /* background-color: white; */
   height: 400px;
   bottom: 20px;
   position: relative;
   font-size: 20px;
   color: #b8b606;
+}
+
+#headerCarousel{
+  position: absolute;
+  bottom: 49%;
+  right: 0px;
+  z-index: -1;
+}
+
+#myCarousel .item{
+  /* height: 500px; */
+  width: 960px;
 }
 
 a{
@@ -43,6 +58,11 @@ ul.nav a:hover{
   color: white;
   background-color: #d8db27;
   border-radius: 20px;
+}
+
+#logo{
+  height: 30px;
+  width: 30px;
 }
 
 #title, #slogan{
