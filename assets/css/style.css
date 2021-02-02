@@ -91,3 +91,23 @@ ul.nav a:hover{
 #getInvolved button:hover{
   background-color: #faffb7;
 }
+
+/* meet the team */
+/* .team p{
+  text-align: center;
+} */
+
+.col-md-1{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.team img {
+  border-radius: 50%;
+  width: 100px !important;
+  height: 100px;
+}
+
+#team2{
+  margin-left: 50px;
+}
