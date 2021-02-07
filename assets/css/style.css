@@ -40,14 +40,15 @@ h2{
 
 #headerCarousel{
   position: absolute;
-  bottom: 49%;
+  bottom: 385px;
   right: 0px;
   z-index: -1;
 }
 
 #myCarousel .item{
-  /* height: 500px; */
-  width: 960px;
+  height: 400px;
+  width: 970px;
+
 }
 
 a{
@@ -84,6 +85,7 @@ ul.nav a:hover{
   position: relative;
   top: 230px;
   border-bottom: 2px solid #d8db27;
+  /* background-color:#faffb7; */
 }
 
 #about, #getInvolved{
@@ -123,6 +125,11 @@ ul.nav a:hover{
   width: 165px;
 }
 
+.col-md-1 p{
+  margin-top: 10px;
+  font-size: 15px;
+}
+
 .team img {
   border-radius: 50%;
   width: 145px !important;
@@ -130,6 +137,6 @@ ul.nav a:hover{
 }
 
 #team2{
-  margin-left: 60px;
+  /* margin-left: 60px; */
   margin-top: 15px;
 }
