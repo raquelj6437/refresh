@@ -156,3 +156,13 @@ ul.nav a:hover{
 #eventLogo{
   height: 300px;
 }
+
+#footer{
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+
+#footer .container{
+  padding-top: 30px;
+}
