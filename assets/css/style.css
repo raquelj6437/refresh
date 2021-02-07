@@ -144,3 +144,11 @@ ul.nav a:hover{
 .position{
   color: #b5b50e;
 }
+
+.eventTitle{
+  border-bottom: 5px #abb017 solid;
+}
+
+#eventLogo{
+  height: 300px;
+}
