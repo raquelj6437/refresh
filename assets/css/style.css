@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@300&family=PT+Sans&family=Ubuntu&display=swap');
 
+html,body{
+  overflow-x: hidden;
+}
+
 body{
   background-color: #faffb7;
   color: #1a1a1a;
