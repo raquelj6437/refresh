@@ -44,7 +44,7 @@ h2{
 
 #headerCarousel{
   position: absolute;
-  bottom: 385px;
+  /* bottom: 385px; */
   right: 0px;
   z-index: -1;
 }
