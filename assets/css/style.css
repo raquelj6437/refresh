@@ -84,10 +84,9 @@ ul.nav a:hover{
   font-family: 'Dosis', sans-serif;
 }
 
-.navbar .container{
+nav{
   position: relative;
   top: 230px;
-  border-bottom: 2px solid #d8db27;
   /* background-color:#faffb7; */
 }
 
@@ -98,6 +97,7 @@ ul.nav a:hover{
 
 #comNav{
   display: block;
+  border-bottom: 2px solid #d8db27;
 }
 
 #about, #getInvolved{
@@ -181,15 +181,19 @@ ul.nav a:hover{
   }
 
   #myCarousel .item{
-    height: 400px;
     width: 100%;
+    filter: brightness(50%);
   }
 
   #myNavbar{
     display: block;
+    background-color: #faffb7;
   }
 
   #comNav{
     display: none;
+  }
+
+  #header{
   }
 }
