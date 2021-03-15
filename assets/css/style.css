@@ -52,7 +52,6 @@ h2{
 #myCarousel .item{
   height: 400px;
   width: 970px;
-
 }
 
 a{
@@ -90,6 +89,15 @@ ul.nav a:hover{
   top: 230px;
   border-bottom: 2px solid #d8db27;
   /* background-color:#faffb7; */
+}
+
+#myNavbar{
+  display: none;
+  width: 100%;
+}
+
+#comNav{
+  display: block;
 }
 
 #about, #getInvolved{
@@ -165,4 +173,23 @@ ul.nav a:hover{
 
 #footer .container{
   padding-top: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+  #header {
+    background-image: none;
+  }
+
+  #myCarousel .item{
+    height: 400px;
+    width: 100%;
+  }
+
+  #myNavbar{
+    display: block;
+  }
+
+  #comNav{
+    display: none;
+  }
 }
